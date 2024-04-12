@@ -23,14 +23,14 @@ const renderContent = {
     ),
     2: (
         <InfoBox
-            text="My education + work exp (studies, certifications, apprenticeship...)" //to think about the text
+            text="Check out my educational and professional journey along with my certifications." //to think about the text
             link="/About"
             btnText="Learn more"
         />
     ),
     3: (
         <InfoBox
-            text="My projects (games on web)" //to think about the text
+            text="Discover my personal and academic projects that have shaped my passion for computer science !" //to think about the text
             link="/projects"
             btnText="Visit my portfolio"
         />
