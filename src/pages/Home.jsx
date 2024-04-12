@@ -6,11 +6,12 @@ import Sky from '../models/Sky';
 import Flying from '../models/Flying';
 import Cloud from '../models/Cloud';
 import HomeInfo from '../components/HomeInfo';
-import sakura from '../assets/sakura.mp3';
+// import sakura from '../assets/sakura.mp3';
+import music from '../assets/music.mp3';
 import { soundoff, soundon } from '../assets/icons';
 
 const Home = () => {
-  const audioRef = useRef(new Audio(sakura));
+  const audioRef = useRef(new Audio(music));
   audioRef.current.volume = 0.4;
   audioRef.current.loop = true;
 
