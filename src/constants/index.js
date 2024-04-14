@@ -25,18 +25,97 @@ import {
     threads,
     typescript
 } from "../assets/icons";
+import figma from "../assets/icons/figma.svg";
+import blender from "../assets/icons/blender.svg";
+import shell from "../assets/icons/shell.svg";
+import hadoop from "../assets/icons/hadoop.svg";
+import sql from "../assets/icons/sql.svg";
+import oracle from "../assets/icons/oracle.svg";
+import keycloak from "../assets/icons/keycloak.svg";
+import python from "../assets/icons/python.svg";
+import java from "../assets/icons/java.svg";
 // import ads2 from "../assets/images/ads2.jpg";
 
 export const skills = [
+    {
+        imageUrl: keycloak,
+        name: "Keycloak",
+        type: "Cybersecurity",
+    },
+    {
+        imageUrl: sql,
+        name: "SQL",
+        type: "Database",
+    },
+    {
+        imageUrl: oracle,
+        name: "Oracle",
+        type: "Database",
+    },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: hadoop,
+        name: "Hadoop",
+        type: "Database",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Programming",
+    },
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Programming",
+    },
+    {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
     {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
         type: "Backend",
+    },
+    {
+        imageUrl: shell,
+        name: "Shell",
+        type: "Command Line",
+    },
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: blender,
+        name: "Blender",
+        type: "3D",
     },
     {
         imageUrl: git,
@@ -49,63 +128,8 @@ export const skills = [
         type: "Version Control",
     },
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
+        imageUrl: figma,
+        name: "Figma",
         type: "Frontend",
     }
 ];
