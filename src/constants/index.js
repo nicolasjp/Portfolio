@@ -2,23 +2,14 @@ import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
     contact,
-    css,
     estate,
-    express,
     git,
     github,
-    html,
-    javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
-    nextjs,
     nodejs,
     pricewise,
     react,
-    redux,
-    sass,
     snapgram,
     summiz,
     tailwindcss,
@@ -29,17 +20,27 @@ import figma from "../assets/icons/figma.svg";
 import blender from "../assets/icons/blender.svg";
 import shell from "../assets/icons/shell.svg";
 import hadoop from "../assets/icons/hadoop.svg";
-import sql from "../assets/icons/sql.svg";
 import oracle from "../assets/icons/oracle.svg";
 import keycloak from "../assets/icons/keycloak.svg";
 import python from "../assets/icons/python.svg";
 import java from "../assets/icons/java.svg";
+import docker from "../assets/icons/docker.svg";
+import rbac from "../assets/images/rbac.png";
+import sql from "../assets/images/sql.png";
+import babylon from "../assets/images/babylon.png";
+import neo4j from "../assets/images/neo4j.png";
+import management from "../assets/images/management.png";
 // import ads2 from "../assets/images/ads2.jpg";
 
 export const skills = [
     {
         imageUrl: keycloak,
         name: "Keycloak",
+        type: "Cybersecurity",
+    },
+    {
+        imageUrl: rbac,
+        name: "RBAC",
         type: "Cybersecurity",
     },
     {
@@ -55,7 +56,12 @@ export const skills = [
     {
         imageUrl: mongodb,
         name: "MongoDB",
-        type: "Database",
+        type: "NoSQL",
+    },
+    {
+        imageUrl: neo4j,
+        name: "Neo4j",
+        type: "NoSQL",
     },
     {
         imageUrl: hadoop,
@@ -68,6 +74,11 @@ export const skills = [
         type: "Programming",
     },
     {
+        imageUrl: shell,
+        name: "Shell",
+        type: "Command Line",
+    },
+    {
         imageUrl: java,
         name: "Java",
         type: "Programming",
@@ -75,21 +86,6 @@ export const skills = [
     {
         imageUrl: typescript,
         name: "TypeScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: css,
-        name: "CSS",
         type: "Frontend",
     },
     {
@@ -103,14 +99,19 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: shell,
-        name: "Shell",
-        type: "Command Line",
-    },
-    {
         imageUrl: react,
         name: "React",
         type: "Frontend",
+    },
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "DevOps",
+    },
+    {
+        imageUrl: babylon,
+        name: "Babylon.js",
+        type: "3D",
     },
     {
         imageUrl: blender,
@@ -131,6 +132,11 @@ export const skills = [
         imageUrl: figma,
         name: "Figma",
         type: "Frontend",
+    },
+    {
+        imageUrl: management,
+        name: "Management",
+        type: "Project Management",
     }
 ];
 
