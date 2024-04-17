@@ -37,7 +37,7 @@ const renderContent = {
     ),
     4: (
         <InfoBox
-            text="Need someone in your cybersecurity team ? I'm just a few keystrokes away" //to think about the text
+            text="Need someone in your team ? I'm just a few keystrokes away." //to think about the text
             link="/contact"
             btnText="Let's talk"
         />
