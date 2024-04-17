@@ -1,4 +1,3 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
     contact,
@@ -30,7 +29,12 @@ import sql from "../assets/images/sql.png";
 import babylon from "../assets/images/babylon.png";
 import neo4j from "../assets/images/neo4j.png";
 import management from "../assets/images/management.png";
-// import ads2 from "../assets/images/ads2.jpg";
+import airbus from "../assets/images/airbus.png";
+import miage from "../assets/images/miage.png";
+import college from "../assets/images/college.png";
+import ef from "../assets/images/ef.png";
+import aws from "../assets/images/aws.png";
+import c2i from "../assets/images/c2i.png";
 
 export const skills = [
     {
@@ -142,55 +146,108 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Apprentice Data Analyst for MAP A320",
+        company_name: "Airbus Operations",
+        icon: airbus,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "September 2022 - August 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+           "Created a Digital Control Room for the MAP A320, enabling real-time monitoring of production data.",
+           "Centralized data from various sources into a single platform using Qlik Sense and conducted ETL processes.",
+           "Used Skywise for data sourcing and transformations, enabling the creation of comprehensive dashboards in Qlik Sense.",
+           "Presented the project to the MAP A320 team, facilitating its adoption for production monitoring.",
+           "Collaborated with teams in Hamburg to ensure quality and consistency of data.",
+        ],
+    },
+    {
+        title: "Apprentice Developer on production tool",
+        company_name: "Airbus Defence and Space",
+        icon: airbus,
+        iconBg: "#accbe1",
+        date: "August 2021 - August 2022",
+        points: [
+            "Developed and maintened a production tool, aimed to centralize data from several tools.",
+            "Using Python coding and Visual Planning API integration to centralize data into a unified system.",
+            "Presented the consolidated tool to team leaders, facilitating its adoption for their teams.",
+            "Created a comprehensive user manual detailing the tool's functionalities for effective utilization.",
+        ],
+    }
+];
+
+export const educations = [
+    {
+        title: "Master MIAGE parcours Ingénierie des Données et Protection (IDP)",
+        company_name: "Université Toulouse III - Paul Sabatier",
+        icon: miage,
+        iconBg: "#c8c2ff",
+        date: "September 2022 - August 2024",
+        points: [
+           "Cybersecurity : Access control and identity management (RBAC, Keycloak) & Risk and security management",
+           "Databases : NoSQL (MongoDB, Neo4j), Big Data (Hadoop), Analytical methods for Big Data",
+           "Data Analysis : Business Intelligence (Power BI), Data Visualization (D3.js), AI",
+           "Cross-cutting skills : Digital law, Audit - Quality, Communication"
+        ],
+    },
+    {
+        title: "Licence MIASHS parcours MIAGE",
+        company_name: "Université Toulouse III - Paul Sabatier",
+        icon: miage,
+        iconBg: "#c8c2ff",
+        date: "September 2019 - August 2022",
+        points: [
+           "Databases : SQL, PL/SQL, Oracle SQL Developer, phpMyAdmin, mySQL",
+           "Programming : Python, Shell, Java, C",
+           "Web Development : HTML6, CSS, TypeScript, Angular, Node.js, Spring Boot",
+           "Cross-cutting skills : Project Management, Financial analysis"
+        ],
+    },
+    {
+        title: "Brevet d'Initiation à l'Aéronautique (BIA)",
+        company_name: "Collège du Bois de la Barthe",
+        icon: college,
+        iconBg: "#b7e4c7",
+        date: "September 2015 - June 2016",
+        points: [
+           "Understanding basic principles of flight and aerodynamics.",
+           "Knowledge of aviation regulations, safety procedures and aircraft systems.",
+           "Gaining proficiency in interpreting meteorological data, navigation techniques, and aviation history",
+           "Developing skills in flight planning, aircraft identification, and flight performance analysis."
+        ],
+    },
+];
+
+export const certifications = [
+    {
+        title: "Métiers de l'ingénieur (Level 2)",
+        company_name: "Université Toulouse III - Paul Sabatier",
+        icon: c2i,
+        iconBg: "#a2d2ff",
+        date: "2023 - 2024",
+        points: [
+            "Mastery of the cross-disciplinary skills in the use of digital technologies necessary for the exercise of a profession and the ability to develop them throughout one's professional life."
+        ],
+    },
+    {
+        title: "AWS Academy Graduate - AWS Academy Cloud Foundations",
+        company_name: "Université Toulouse III - Paul Sabatier",
+        icon: aws,
+        iconBg: "#ffe2c9",
+        date: "October 2023 - December 2023",
+        points: [
+            "Became an AWS Academy Cloud Foundations graduate, equipped with fundamental knowledge in cloud computing from AWS.",
+            "Obtained a detailed overview of cloud concepts, AWS core services, security, architecture, pricing, and support."
+        ],
+    },
+    {
+        title: "Course Certificate & Language Assessment (Level C1-2)",
+        company_name: "EF Auckland - International Language Campuses",
+        icon: ef,
+        iconBg: "#c2d8ff",
+        date: "July 2023 - July 2023",
+        points: [
+            "Understanding & Listening",
+            "Reading & Writing",
+            "Spoken Interaction & Production",
         ],
     },
 ];
@@ -209,7 +266,7 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/nicolas-jacob-peres-a7ba75196/',
     }
 ];
 
