@@ -13,8 +13,8 @@ const Projects = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          I've embarked on numerous projects throughout the years, from web development 
-          to data analysis, and even cybersecurity. Many of them are open source, so if 
+          I've embarked on numerous projects throughout the years, from 3D games 
+          to web development, and even cybersecurity. Many of them are open source, so if 
           you're interested, feel free to check them out on their respective 
           github repositories.
           Here are some of the projects I've worked on : 
@@ -44,9 +44,9 @@ const Projects = () => {
               </p>
               <div className="mt-5 flex items-center gap-2 font-poppins">
                 <Link 
-                  // to={project.link}
-                  // target="_blank"
-                  // rel="noopener noreferrer"
+                  to={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="font-semibold text-blue-600"
                 >
                   Live Link
