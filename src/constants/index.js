@@ -1,18 +1,11 @@
 import {
-    car,
     contact,
-    estate,
     git,
     github,
     linkedin,
     mongodb,
     nodejs,
-    pricewise,
     react,
-    snapgram,
-    summiz,
-    tailwindcss,
-    threads,
     typescript
 } from "../assets/icons";
 import figma from "../assets/icons/figma.svg";
@@ -24,6 +17,12 @@ import keycloak from "../assets/icons/keycloak.svg";
 import python from "../assets/icons/python.svg";
 import java from "../assets/icons/java.svg";
 import docker from "../assets/icons/docker.svg";
+import portfolio from "../assets/icons/portfolio.svg";
+import hoodie from "../assets/icons/hoodie.svg";
+import leaf from "../assets/icons/leaf.svg";
+import olympic from "../assets/icons/olympic.svg";
+import permission from "../assets/icons/permissions.svg";
+
 import rbac from "../assets/images/rbac.png";
 import sql from "../assets/images/sql.png";
 import babylon from "../assets/images/babylon.png";
@@ -35,26 +34,17 @@ import college from "../assets/images/college.png";
 import ef from "../assets/images/ef.png";
 import aws from "../assets/images/aws.png";
 import c2i from "../assets/images/c2i.png";
+import qlik from "../assets/images/qlikS.png";
 
 export const skills = [
     {
-        imageUrl: keycloak,
-        name: "Keycloak",
-        type: "Cybersecurity",
-    },
-    {
-        imageUrl: rbac,
-        name: "RBAC",
-        type: "Cybersecurity",
+        imageUrl: oracle,
+        name: "Oracle",
+        type: "Database",
     },
     {
         imageUrl: sql,
         name: "SQL",
-        type: "Database",
-    },
-    {
-        imageUrl: oracle,
-        name: "Oracle",
         type: "Database",
     },
     {
@@ -71,6 +61,21 @@ export const skills = [
         imageUrl: hadoop,
         name: "Hadoop",
         type: "Database",
+    },
+    {
+        imageUrl: qlik,
+        name: "Qlik Sense",
+        type: "Business Intelligence",
+    },
+    {
+        imageUrl: keycloak,
+        name: "Keycloak",
+        type: "Cybersecurity",
+    },
+    {
+        imageUrl: rbac,
+        name: "RBAC",
+        type: "Cybersecurity",
     },
     {
         imageUrl: python,
@@ -90,11 +95,6 @@ export const skills = [
     {
         imageUrl: typescript,
         name: "TypeScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
         type: "Frontend",
     },
     {
@@ -272,45 +272,38 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/nicolasjp/project1',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/nicolasjp/project2',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/nicolasjp/project3',
-    },
-    {
-        iconUrl: snapgram,
+        iconUrl: portfolio,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/nicolasjp/project4',
+        name: '3D Portfolio Website',
+        description: 'Developed a 3D portfolio website using React with Three.js, showcasing my projects and skills in an interactive and visually appealing manner.',
+        link: 'https://github.com/nicolasjp/Portfolio'
     },
     {
-        iconUrl: estate,
+        iconUrl: hoodie,
+        theme: 'btn-back-red',
+        name: 'TCP Teamwear Studio',
+        description: 'Designed and developed a 3D web application for customizing teamwear for my tennis club, enabling the committee to choose new designs and colors for the team.',
+        link: 'https://nicolasjp.github.io/TCP-Teamwear-Studio/'
+    },
+    {
+        iconUrl: leaf,
+        theme: 'btn-back-green',
+        name: 'Daily Green',
+        description: 'Developed a video game for the Games on Web 2023 competition that educates players on the importance of ecology, promoting eco-friendly habits in a fun and engaging way. The game was developed using Babylon.js and Blender.',
+        link: 'https://github.com/gamesonweb/be-green-daily-green?tab=readme-ov-file'
+    },
+    {
+        iconUrl: olympic,
+        theme: 'btn-back-blue',
+        name: 'Golden Legends',
+        description: 'Developed a video game for the Games on Web 2024 competition that immerses players in the 2024 Paris Olympics, enabling them to compete in various sports and win medals. The game was developed using Babylon.js, Blender and Vue.js.',
+        link: 'https://github.com/Golden-Legends'
+    },
+    {
+        iconUrl: permission,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/nicolasjp/project5',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/nicolasjp/project6',
+        name: 'Keycloak RBAC Website',
+        description: 'Developed a website prototype with the RBAC model, offering a grade management system for universities. The website was developed using Node.js, Express, and Keycloak.',
+        link: 'https://github.com/nicolasjp/Keycloak-RBAC-Website'//todo
     }
 ];
