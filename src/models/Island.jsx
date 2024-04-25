@@ -430,7 +430,7 @@ const Island = ({isRotating, setIsRotating, setCurrentStage, ...props}) => {
 
 
   return (
-    <a.group ref={islandRef} {...props} dispose={null} rotation={[0.25, -1.6, 0]}>
+    <a.group ref={islandRef} {...props} dispose={null} /*position={[-0.5,0,-1]}*/ rotation={[0.25, -1.6, 0]}>
       <group name="Scene">
         <group
           name="Sketchfab_model"
