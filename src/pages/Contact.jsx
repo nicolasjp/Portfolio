@@ -39,6 +39,7 @@ const Contact = () => {
     ).then(() => {
       setIsLoading(false);
       showAlert({show: true, text: 'Message sent successfully!', type: 'success'})
+      // console.log(import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY)
       
       setTimeout(() => { 
         hideAlert();
@@ -50,7 +51,7 @@ const Contact = () => {
       setCurrentAnimation('idle');
       console.log(error); 
       showAlert({show: true, text: 'I didn\'t receive your message', type: 'danger'})
-      console.log(import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY)
+      // console.log(import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY)
     });
   };
 
