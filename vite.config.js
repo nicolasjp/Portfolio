@@ -7,7 +7,7 @@ export default defineConfig({
   assetsInclude: ['**/*.glb'],
   base: './',
   root: 'src/',
-  publicDir: './assets/',
+  publicDir: '../public/',
   build: {
     outDir: "../dist",
     emptyOutDir: true,
