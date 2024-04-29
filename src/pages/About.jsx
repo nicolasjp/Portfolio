@@ -107,39 +107,39 @@ const About = () => {
 
         <div className="mt-12 flex">
           <VerticalTimeline>
-            {educations.map((experience) => (
+            {educations.map((education) => (
               <VerticalTimelineElement
-                key={experience.company_name}
-                date={experience.date}
+                key={education.company_name}
+                date={education.date}
                 icon={
                   <div className="flex justify-center items-center w-full h-full">
-                    <img src={experience.icon} alt={experience.company_name} className="w-[90%] h-[90%] object-contain"/>
+                    <img src={education.icon} alt={education.company_name} className="w-[90%] h-[90%] object-contain"/>
                   </div>
                 }
                 iconStyle={
                   {
-                    background: experience.iconBg
+                    background: education.iconBg
                   }
                 }
                 contentStyle={{
                   borderBottom: '8px',
                   borderStyle: 'solid',
-                  borderBottomColor: experience.iconBg,
+                  borderBottomColor: education.iconBg,
                   boxShadow: 'none',
                 }}
               >
                 <div>
                   <h3 className="text-black text-xl font-poppins font-semibold">
-                    {experience.title}
+                    {education.title}
                   </h3>
                   <p className="text-black-500 font-medium font-base" style={{margin: 0}}>
-                    {experience.company_name}
+                    {education.company_name}
                   </p>
                 </div>
 
                 <ul className="my-5 list-disc ml-5 space-y-2">
-                  {experience.points.map((point, index) => (
-                    <li key={`experience-point-${index}`}
+                  {education.points.map((point, index) => (
+                    <li key={`education-point-${index}`}
                       className="text-black-500/50 font-normal pl-1 text-sm"
                     >
                       {point}
@@ -163,39 +163,39 @@ const About = () => {
 
         <div className="mt-12 flex">
           <VerticalTimeline>
-            {certifications.map((experience) => (
+            {certifications.map((certification) => (
               <VerticalTimelineElement
-                key={experience.company_name}
-                date={experience.date}
+                key={certification.company_name}
+                date={certification.date}
                 icon={
                   <div className="flex justify-center items-center w-full h-full">
-                    <img src={experience.icon} alt={experience.company_name} className="w-[90%] h-[90%] object-contain"/>
+                    <img src={certification.icon} alt={certification.company_name} className="w-[90%] h-[90%] object-contain"/>
                   </div>
                 }
                 iconStyle={
                   {
-                    background: experience.iconBg
+                    background: certification.iconBg
                   }
                 }
                 contentStyle={{
                   borderBottom: '8px',
                   borderStyle: 'solid',
-                  borderBottomColor: experience.iconBg,
+                  borderBottomColor: certification.iconBg,
                   boxShadow: 'none',
                 }}
               >
                 <div>
                   <h3 className="text-black text-xl font-poppins font-semibold">
-                    {experience.title}
+                    {certification.title}
                   </h3>
                   <p className="text-black-500 font-medium font-base" style={{margin: 0}}>
-                    {experience.company_name}
+                    {certification.company_name}
                   </p>
                 </div>
 
                 <ul className="my-5 list-disc ml-5 space-y-2">
-                  {experience.points.map((point, index) => (
-                    <li key={`experience-point-${index}`}
+                  {certification.points.map((point, index) => (
+                    <li key={`certification-point-${index}`}
                       className="text-black-500/50 font-normal pl-1 text-sm"
                     >
                       {point}

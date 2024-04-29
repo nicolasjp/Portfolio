@@ -25,6 +25,8 @@ const Contact = () => {
     emailjs.send(
       import.meta.env.VITE_APP_EMAILJS_SERVICE_ID, 
       import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID, 
+      //process.env.VITE_APP_EMAILJS_SERVICE_ID,
+      //process.env.VITE_APP_EMAILJS_TEMPLATE_ID,
       {
         from_name: form.name,
         to_name: "Nicolas",
@@ -32,11 +34,12 @@ const Contact = () => {
         to_email: "nicolas.jacob@toulouse.miage.fr",
         message: form.message
       },
+      //process.env.VITE_APP_EMAILJS_PUBLIC_KEY
       import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
     ).then(() => {
       setIsLoading(false);
       showAlert({show: true, text: 'Message sent successfully!', type: 'success'})
-
+      
       setTimeout(() => { 
         hideAlert();
         setCurrentAnimation('idle');
@@ -47,6 +50,7 @@ const Contact = () => {
       setCurrentAnimation('idle');
       console.log(error); 
       showAlert({show: true, text: 'I didn\'t receive your message', type: 'danger'})
+      console.log(import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY)
     });
   };
 

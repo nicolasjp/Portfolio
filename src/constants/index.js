@@ -190,7 +190,7 @@ export const educations = [
     },
     {
         title: "Licence MIASHS parcours MIAGE",
-        company_name: "Université Toulouse III - Paul Sabatier",
+        company_name: "Université Toulouse III - Paul S.",
         icon: miage,
         iconBg: "#c8c2ff",
         date: "September 2019 - August 2022",
@@ -229,7 +229,7 @@ export const certifications = [
     },
     {
         title: "AWS Academy Graduate - AWS Academy Cloud Foundations",
-        company_name: "Université Toulouse III - Paul Sabatier",
+        company_name: "Université Toulouse III - Paul S.",
         icon: aws,
         iconBg: "#ffe2c9",
         date: "October 2023 - December 2023",
