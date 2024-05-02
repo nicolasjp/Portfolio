@@ -7,7 +7,8 @@ import cv2 from "../assets/images/cv2.png";
 const Footer = () => {
   const handlePdfClick = () => {
     // Ouvre le fichier PDF dans une nouvelle fenêtre
-    window.open('../Portfolio/assets/EN_CV_Nicolas_JacobPeres.pdf', '_blank');
+    // window.open('../Portfolio/assets/EN_CV_Nicolas_JacobPeres.pdf', '_blank');
+    window.open('https://raw.githubusercontent.com/nicolasjp/Portfolio/master/src/assets/EN_CV_Nicolas_JacobPeres.pdf', '_blank');
   };
 
   return (
