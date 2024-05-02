@@ -190,3 +190,19 @@ body:has(.card[data-color="green"]:hover) {
   box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
 }
+
+.main {
+  /* position: absolute; */
+  top: 50%;
+  left: 25%;
+  animation: moveLeft 2s linear infinite; /* Déplace la main de droite à gauche en boucle sur 5 secondes */
+}
+
+@keyframes moveLeft {
+  0%, 100% {
+    transform: translateX(0); /* La main est à sa position initiale et finale */
+  }
+  50% {
+    transform: translateX(-50%); /* La main se déplace de droite à gauche */
+  }
+}

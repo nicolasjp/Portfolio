@@ -6,6 +6,7 @@ import Sky from '../models/Sky';
 import Flying from '../models/Flying';
 import Cloud from '../models/Cloud';
 import HomeInfo from '../components/HomeInfo';
+import Welcome from '../components/Welcome';
 // import sakura from '../assets/sakura.mp3';
 import music from '../assets/music.mp3';
 import { soundoff, soundon } from '../assets/icons';
@@ -69,6 +70,9 @@ const Home = () => {
     <section className="w-full h-screen relative">
       <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
         {currentStage && <HomeInfo currentStage={currentStage}/>}
+      </div>
+      <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
+        <Welcome/>
       </div>
 
       <Canvas className={`w-full h-screen bg-transparent"
