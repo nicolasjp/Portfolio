@@ -303,7 +303,7 @@ export const projects = [
         iconUrl: permission,
         theme: 'btn-back-black',
         name: 'Keycloak RBAC Website',
-        description: 'Developed a website prototype with the RBAC model, offering a grade management system for universities. The website was developed using Node.js, Express, and Keycloak.',
-        link: 'https://github.com/nicolasjp/Keycloak-RBAC-Website'//todo
+        description: 'Developed a website prototype with the RBAC model, offering a grade management system for universities. The website was developed using Node.js, Express, Keycloak and Docker.',
+        link: 'https://github.com/nicolasjp/keycloakProject'
     }
 ];

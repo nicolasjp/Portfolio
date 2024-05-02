@@ -42,8 +42,7 @@ const About = () => {
         <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I have worked with several companies, leveling my skills in development, data analysis, and cybersecurity
-            and teaming up with great people.
+            I have worked with several companies, leveling my skills in data analysis and development and teaming up with great people.
             Here's the rundown :
           </p>
         </div>
