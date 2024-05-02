@@ -9,6 +9,7 @@ const Footer = () => {
     // Ouvre le fichier PDF dans une nouvelle fenêtre
     // window.open('../Portfolio/assets/EN_CV_Nicolas_JacobPeres.pdf', '_blank');
     window.open('https://raw.githubusercontent.com/nicolasjp/Portfolio/master/src/assets/EN_CV_Nicolas_JacobPeres.pdf', '_blank');
+    // window.open('https://github.com/nicolasjp/Portfolio/raw/master/src/assets/EN_CV_Nicolas_JacobPeres.pdf', '_blank', 'noopener,noreferrer');
   };
 
   return (
