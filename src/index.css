@@ -54,6 +54,23 @@ body:has(.card[data-color="green"]:hover) {
     @apply flex justify-between items-center sm:px-16 px-8 py-4 max-w-5xl mx-auto absolute top-0 bg-transparent z-10 right-0 left-0;
   }
 
+  /* Styles généraux */
+
+/* Styles spécifiques aux petits écrans */
+@media (max-width: 600px) {
+  .header h2 {
+      font-size: 14px;
+      padding: 7px;
+      margin: 1;
+  }
+
+  .header nav h2 {
+      font-size: 12px;
+      padding: 5px 0px;
+      margin: 1;
+  }
+}
+
   .footer {
     @apply  pb-6 flex flex-col gap-7 ;  
   }
