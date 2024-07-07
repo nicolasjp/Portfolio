@@ -272,11 +272,18 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: portfolio,
-        theme: 'btn-back-pink',
-        name: '3D Portfolio Website',
-        description: 'Developed a 3D portfolio website using React with Three.js, showcasing my projects and skills in an interactive and visually appealing manner.',
-        link: 'https://github.com/nicolasjp/Portfolio'
+        iconUrl: olympic,
+        theme: 'btn-back-blue',
+        name: 'Golden Legends',
+        description: 'Developed a video game with 2 friends for the Games on Web 2024 competition (we finished 1st) that immerses players in the 2024 Paris Olympics, enabling them to compete in various sports and win medals. The game was developed using Babylon.js, Blender and Vue.js.',
+        link: 'https://golden-legends.github.io/golden-legends/#/'
+    },
+    {
+        iconUrl: olympic,
+        theme: 'btn-back-blue',
+        name: 'Golden Legends documentation',
+        description: 'Created a website following our adventure at the Games on Web 2024 competition. Built with Docusaurus, our site features detailed documentation to show how to play and a blog to tell the exciting journey of developing this game. Uncover all the secrets behind our success !😉',
+        link: 'https://golden-legends.github.io/golden-legends-docs/'
     },
     {
         iconUrl: hoodie,
@@ -286,18 +293,18 @@ export const projects = [
         link: 'https://nicolasjp.github.io/TCP-Teamwear-Studio/'
     },
     {
+        iconUrl: portfolio,
+        theme: 'btn-back-pink',
+        name: '3D Portfolio Website',
+        description: 'Developed a 3D portfolio website using React with Three.js, showcasing my projects and skills in an interactive and visually appealing manner.',
+        link: 'https://github.com/nicolasjp/Portfolio'
+    },
+    {
         iconUrl: leaf,
         theme: 'btn-back-green',
         name: 'Daily Green',
-        description: 'Developed a video game for the Games on Web 2023 competition that educates players on the importance of ecology, promoting eco-friendly habits in a fun and engaging way. The game was developed using Babylon.js and Blender.',
-        link: 'https://github.com/gamesonweb/be-green-daily-green?tab=readme-ov-file'
-    },
-    {
-        iconUrl: olympic,
-        theme: 'btn-back-blue',
-        name: 'Golden Legends',
-        description: 'Developed a video game for the Games on Web 2024 competition that immerses players in the 2024 Paris Olympics, enabling them to compete in various sports and win medals. The game was developed using Babylon.js, Blender and Vue.js.',
-        link: 'https://github.com/Golden-Legends'
+        description: 'Developed a video game with 2 friends for the Games on Web 2023 competition (we finished 3rd) that educates players on the importance of ecology, promoting eco-friendly habits in a fun and engaging way. The game was developed using Babylon.js and Blender.',
+        link: 'https://shannorr.github.io/games-on-web-2023/    '
     },
     {
         iconUrl: permission,
