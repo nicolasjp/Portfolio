@@ -21,6 +21,7 @@ import portfolio from "../assets/icons/portfolio.svg";
 import hoodie from "../assets/icons/hoodie.svg";
 import leaf from "../assets/icons/leaf.svg";
 import olympic from "../assets/icons/olympic.svg";
+import ether from "../assets/icons/ether2.svg";
 import permission from "../assets/icons/permissions.svg";
 
 import rbac from "../assets/images/rbac.png";
@@ -272,6 +273,13 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: ether,
+        theme: 'btn-back-black',
+        name: 'Ethereum Lottery',
+        description: 'Development of a decentralised application for managing a lottery using blockchain technology (Ethereum). This application has been developed with Solidity, Python, and Ganache to quickly launch a personal Ethereum blockchain.',
+        link: 'https://github.com/nicolasjp/EthereumLottery'
+    },
+    {
         iconUrl: olympic,
         theme: 'btn-back-blue',
         name: 'Golden Legends',
@@ -280,7 +288,7 @@ export const projects = [
     },
     {
         iconUrl: olympic,
-        theme: 'btn-back-blue',
+        theme: 'btn-back-yellow',
         name: 'Golden Legends documentation',
         description: 'Created a website following our adventure at the Games on Web 2024 competition. Built with Docusaurus, our site features detailed documentation to show how to play and a blog to tell the exciting journey of developing this game. Uncover all the secrets behind our success !😉',
         link: 'https://golden-legends.github.io/golden-legends-docs/'
