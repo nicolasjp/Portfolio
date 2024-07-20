@@ -36,6 +36,13 @@ import ef from "../assets/images/ef.png";
 import aws from "../assets/images/aws.png";
 import c2i from "../assets/images/c2i.png";
 import qlik from "../assets/images/qlikS.png";
+import pp from "../assets/images/pp2.png";
+
+export const profile = {
+    imageUrl: pp,
+    name: "profile",
+    type: "profileImg",
+}
 
 export const skills = [
     {

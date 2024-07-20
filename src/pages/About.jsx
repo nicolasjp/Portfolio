@@ -2,7 +2,7 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-import { skills, experiences, educations, certifications } from '../constants'
+import { profile, skills, experiences, educations, certifications } from '../constants'
 import CTA from '../components/CTA';
 
 const About = () => {
@@ -13,8 +13,8 @@ const About = () => {
           Hello, I'm <span className="blue-gradient_text font-semibold drop-shadow">Nicolas </span>
           </h1>
         <img 
-          src="./assets/pp2.png"
-          alt="pp"
+          src={profile.imageUrl}
+          alt={profile.name}
           className="profile-pic"
         />
         <h1 className="head-text">🧑‍💻🎾🎹</h1>
