@@ -223,3 +223,20 @@ body:has(.card[data-color="green"]:hover) {
     transform: translateX(-50%); /* La main se déplace de droite à gauche */
   }
 }
+
+
+.header-container {
+  display: flex;
+  align-items: center; /* Aligne verticalement les éléments au centre */
+}
+
+.head-text {
+  margin-right: 10px; /* Espace entre le texte et l'image */
+}
+
+.profile-pic {
+  width: 7rem; /* Vous pouvez ajuster ces valeurs */
+  height: 7rem; /* Vous pouvez ajuster ces valeurs */
+  object-fit: contain;
+  margin-right: 1rem;
+}

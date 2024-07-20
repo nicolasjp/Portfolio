@@ -60,13 +60,21 @@ const Contact = () => {
   const handleBlur = () => setCurrentAnimation('idle');
 
   return (
-    <section className="relative flex lg:flex-row flex-col max-container xl:h-[100vh]">
+    <section className="relative flex lg:flex-row flex-col max-container xl:h-[100vh]">   
       {alert.show && <Alert {...alert}/>}
       
       <div className="flex-1 min-w-[50%] flex flex-col">
-        <h1 className="head-text">Get in Touch</h1>
+        <h1 className="head-text">Get in Touch ☎️</h1>
 
-        <form className="w-full flex flex-col gap-7 mt-14" onSubmit={handleSubmit}>
+        <br></br>
+        <label className="text-black-500 font-semibold">
+          Phone : <span className="blue-gradient_text font-semibold drop-shadow">+33 6 51 15 32 66 </span>
+        </label>
+        <label className="text-black-500 font-semibold">
+          LinkedIn : <a href="https://www.linkedin.com/in/nicolas-jacob-peres-a7ba75196/" target="_blank" rel="noreferrer"><span className="blue-gradient_text font-semibold drop-shadow">Nicolas Jacob Peres</span></a>
+        </label>
+
+        <form className="w-full flex flex-col gap-7 mt-6" onSubmit={handleSubmit}>
           <label className="text-black-500 font-semibold">Name
             <input type="text" name="name" className="input"
               placeholder="Nicolas" required value={form.name} 

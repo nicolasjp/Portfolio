@@ -8,15 +8,25 @@ import CTA from '../components/CTA';
 const About = () => {
   return (
     <section className="max-container">
-      <h1 className="head-text">
-        Hello, I'm <span className="blue-gradient_text font-semibold drop-shadow">Nicolas </span>🧑‍💻🎾🎹
-      </h1>
+      <div className="header-container">
+        <h1 className="head-text">
+          Hello, I'm <span className="blue-gradient_text font-semibold drop-shadow">Nicolas </span>
+          </h1>
+        <img 
+          src="./assets/pp2.png"
+          alt="pp"
+          className="profile-pic"
+        />
+        <h1 className="head-text">🧑‍💻🎾🎹</h1>
+        
+      </div>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
         Currently in a MIAGE IDP master apprenticeship as a Data Analyst at Airbus Operations, 
-        I'm open to all opportunities, especially in Data and Cybersecurity from September 2024.
+        I'm open to all opportunities, especially in Data Analysis from September 2024.
         </p>
+        
       </div>
 
       <div className="py-10 flex flex-col">
